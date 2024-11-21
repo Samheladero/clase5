@@ -1,0 +1,57 @@
+/*selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*selector de etiqueta*/
+header, footer{
+    background-color: aqua;
+
+}
+
+/*selector desendente*/
+article p span{
+    font-size: xx-large;   /*Tamaño de letre*/
+    color: brown;  /*color de letra*/
+    font-family: 'Times New Roman', Times, serif; /*tipo de letra*/
+    font-weight: bold; /*grueso de la letra*/
+}
+
+/*selector clase*/
+.miClase{
+    background-color:darkcyan;
+}
+
+/*selector tipo id*/
+#menu{
+    background-color: blueviolet;
+    color: rosybrown;
+    
+}
+
+/*selector adyacente*/
+h1+p{
+    text-decoration: underline;
+}
+
+#miP{
+    text-decoration: none;
+}
+
+/*selector pseudocodigo*/
+.mia:hover{
+    background-color: black;
+    color: yellow;
+}
+
+img:hover{
+    opacity: 0;
+}
+footer p::before{
+    content: url();
+}
+
+.i{
+    display: block;
+}
